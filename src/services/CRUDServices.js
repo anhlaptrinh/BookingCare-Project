@@ -11,7 +11,7 @@ export let createNewUser = async (data) => {
         password: hashPasswordFromBcrypt,
         firstName: data.firstname,
         lastName: data.lastname,
-        phonenumber: data.phonenumber,
+        phoneNumber: data.phonenumber,
         address: data.address,
         roleId: data.role,
         gender: data.gender === 1 ? true : false,
